@@ -1,2 +1,22 @@
-# bash-video-splitter
-A video splitting bash script for Linux
+# Social Media ScriptKit
+
+MIND THE GAP! THE PROJECT IS UNDER HEAVY CONSTRUCTION.
+
+Social Media scriptkit is a collection of scripts that aims to help social media content makers to produce content faster and in bulk avoiding the use of complex software or the need of an expert for specific production work (i.e. video editing work). Right now it is a super early stage idea. 
+
+## AVAILABLE SCRIPTS / AUTOMATIONS
+
+- __Video Splitter:__ This script can automatically split a large video to smaller parts that can be used as social media content (Facebook / Instagram stories, Instagram / TikTok posts, and so forth. The user defines the parts of the video that need to be cut off and the script does the rest. 
+
+## DEPENDENCIES
+
+- Right now the project works stricrtly with bash script created for Linux use. We welcome developers that want to recreate the scripts for Windows or other Operating Systems.
+- For the video related scripts the ffmpeg lbrary needs to be installed (tested on version 4.2.2).
+
+## AUTHORS
+
+- [Apostolos Kritikos](https://github.com/akritiko)
+
+## LICENSE 
+
+The project is published under the [MIT license](https://github.com/akritiko/socialmedia-scriptkit/blob/master/LICENSE).

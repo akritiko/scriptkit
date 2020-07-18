@@ -1,8 +1,15 @@
 #!/bin/bash
-# Title: Video splitter script.
+#
+# Filename: cutMyVideos.sh
 # Author: Apostolos Kritikos <akritiko@gmail.com>
+#
+# Description: Reads the CSV and gets all the information
+#              for the video splits. Then it feeds videosplit.sh
+#              with these information. 
+#
+# Parameters: None
 
-INPUT=input.csv
+INPUT=data.csv
 OLDIFS=$IFS
 IFS=','
 [ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }

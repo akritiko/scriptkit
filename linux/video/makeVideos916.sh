@@ -1,11 +1,11 @@
 #!/bin/bash
 #
-# Filename: cutMyVideos.sh
+# Filename: makeVideos916.sh
 # Author: Apostolos Kritikos <akritiko@gmail.com>
 #
 # Description: Reads the CSV and gets all the information
-#              for the video splits. Then it feeds videosplit.sh
-#              with these information. 
+#              for the video splits. Then it feeds 
+#              horizontalVideoTo916.sh with these information. 
 #
 # Parameters: None
 
@@ -15,7 +15,7 @@ IFS=','
 [ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
 while read infile outfile start end tiktok
 do
-	sh videosplit.sh ${infile%%*( )} ${outfile%%*( )} ${start%%*( )} ${end%%*( )}
+	sh horizontalVideoTo916.sh ${outfile%%*( )} ${tiktok%%*( )}
 done < $INPUT
 IFS=$OLDIFS
 

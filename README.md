@@ -6,7 +6,8 @@ Social Media scriptkit is a collection of scripts that aims to help social media
 
 ## AVAILABLE SCRIPTS / AUTOMATIONS
 
-- __Video Splitter:__ This script can automatically split a large video to smaller parts that can be used as social media content (Facebook / Instagram stories, Instagram / TikTok posts, and so forth. The user defines the parts of the video that need to be cut off and the script does the rest. 
+1. __Video Splitter:__ This script can automatically split a large video to smaller parts that can be used as social media content (Facebook / Instagram stories, Instagram / TikTok posts, and so forth. The user defines the parts of the video that need to be cut off and the script does the rest.
+2. __Horizontal videos to 9:16__ This script turns horizontal videos to 9:16 resolution to be fitted for post on Instagram and TikTok. As a bonus the content of the video is attached blurred to the background. 
 
 ## DEPENDENCIES
 
